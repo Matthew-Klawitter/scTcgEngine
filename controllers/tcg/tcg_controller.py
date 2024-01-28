@@ -1,6 +1,6 @@
 from sqlalchemy.orm import Session
 
-from models.tcg import CardSets, CardSet, Cards, Card
+from models.tcg.tcg import CardSets, CardSet, Cards, Card
 
 
 def create_card_set(card_set_model: CardSets, db: Session):
